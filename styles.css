@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200&family=Space+Mono&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins';
+    overflow: hidden;
+}
+
+body {
+    opacity: 0;
+    transition: opacity .5s;
+    background: linear-gradient(#3e5151, #decba4);
+    color: #fff;
+    font-weight: bold;
+}
+
+.topnavbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.topnavbar span {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: -200px auto;
+}
+
+.buttons button {
+    margin-top: 15px;
+    margin-right: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ccc;
+    font-family: 'Poppins';
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.timer span {
+    font-size: 25px;
+    font-family: 'Roboto Mono';
+}
